@@ -1,6 +1,6 @@
 /* ====== DATOS (edita aquí; ambos formatos se actualizan) ====== */
 const DATA = {
-  name: "Camila Restrepo",
+  name: "Brayan Stiven Gallego Lopez",
   title: "Desarrolladora de Software Full Stack",
   email: "camila.restrepo@email.com",
   phone: "+57 300 123 4567",
