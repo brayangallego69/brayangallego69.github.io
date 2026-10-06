@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hoja de vida – Camila Restrepo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="visual">
+<header class="toolbar">
+  <div class="tabs" role="tablist" aria-label="Formato de hoja de vida">
+    <button role="tab" id="tab-visual" aria-selected="true" data-view="visual">Visual</button>
+    <button role="tab" id="tab-ats" aria-selected="false" data-view="ats">ATS</button>
+  </div>
+  <p class="hint" id="hint"></p>
+  <button class="download" id="download">Descargar PDF</button>
+</header>
+
+<main>
+  <article id="cv-visual" class="cv cv-visual" aria-label="Hoja de vida visual"></article>
+  <article id="cv-ats" class="cv cv-ats" aria-label="Hoja de vida ATS" hidden></article>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
